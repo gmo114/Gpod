@@ -8,9 +8,9 @@ import RPi.GPIO as GPIO
 
 class pirateDisplay:
     script = []
+    lines = 11
     start = 0
-    end = 5
-    lines = 9
+    end = lines
     disp = ST7789.ST7789(
             height=240,
             width=240,
