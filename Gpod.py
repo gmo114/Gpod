@@ -75,7 +75,7 @@ if __name__ == "__main__":
             disp.write("good bye!")
             time.sleep(1.5)
             disp.write("")
-            bw.ChangeDutyCycle(0.0)
+            disp.setBacklight(0)
             os.system("sudo -H shutdown now")
         elif answer == [False,False,True,False]: # vol plus
             player.volPlus()
