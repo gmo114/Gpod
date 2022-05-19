@@ -114,11 +114,10 @@ if __name__ == "__main__":
             disp.script.append("------------------------------------")
             disp.update("A+B+X+Y = stop")
             disp.update("A = pause/play")
-            disp.update ("B = what currently playing")
+            disp.update ("B = turn on display")
             disp.update("X = vol up")
             disp.update("Y = vol down")
             disp.update("loading rest of instuctions")
-            disp.update("B+Y = rand list play first song")
             disp.update("B+Y = rand list play first song")
             br = 100
             tm = 0.0
